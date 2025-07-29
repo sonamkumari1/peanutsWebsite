@@ -4,7 +4,11 @@ const nodemailer = require("nodemailer");
 const path=require("path")
 
 const app = express();
-app.use(cors());
+const corsOptions={
+  origin:"https://github.com/sonamkumari1/peanutsWebsite",
+  Credential:true
+}
+app.use(cors(corsOptions));
 
 const _dirname=path.resolve();
 
