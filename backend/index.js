@@ -5,7 +5,7 @@ const path=require("path")
 
 const app = express();
 const corsOptions={
-  origin:"https://github.com/sonamkumari1/peanutsWebsite",
+  origin:"https://peanutswebsite1.onrender.com",
   Credential:true
 }
 app.use(cors(corsOptions));
