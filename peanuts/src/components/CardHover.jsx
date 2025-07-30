@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function CardHover() {
+  const navigate=useNavigate()
+
   const cardData = [
     {
       name: "Bold Peanuts",
@@ -23,11 +26,15 @@ function CardHover() {
     },
   ];
 
+   const handleCardClick = () => {
+    navigate("/products");
+  };
+
   return (
     <div className="flex items-center justify-center bg-[#fff7ff] gap-16 pt-28 md:pb-20 flex-wrap">
       {cardData.map((card, index) => (
         <div key={index} className="mt-6 mb-20 md:mt-0 md:mb-0">
-          <div className="relative h-[270px] w-[300px] cursor-pointer rounded-xl bg-white p-4 shadow-xl transition duration-300 hover:shadow-2xl">
+          <div onClick={handleCardClick} className="relative h-[270px] w-[300px] cursor-pointer rounded-xl bg-white p-4 shadow-xl transition duration-300 hover:shadow-2xl">
             <div className="absolute -top-10 right-0 z-0 h-48 w-48 rounded-full bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 opacity-50 blur-2xl"></div>
 
             <div className="relative z-10 flex flex-col items-center">

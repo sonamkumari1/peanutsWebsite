@@ -3,8 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate=useNavigate()
   const slides = [
     {
       image:
@@ -58,7 +60,7 @@ const Hero = () => {
         <p className="text-base text-[#510e0b] max-w-md">
           Leader in processing of peanuts in India for the last 20 years
         </p>
-        <button className="bg-[#510e0b] text-white py-2 px-4 rounded-lg md:ml-36 mt-4">
+        <button onClick={()=>navigate("/about")} className="bg-[#510e0b] text-white py-2 px-4 rounded-lg md:ml-36 mt-4">
           Read More
         </button>
       </div>
