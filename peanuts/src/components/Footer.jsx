@@ -10,9 +10,9 @@ const Footer = () => {
         
           <div className="flex-shrink-0">
             <img
-              src="https://dusadagro.com/wp-content/uploads/2020/02/LOGO-PNG-150x150.png"
+              src="logo.png"
               alt="Dusad Agro Logo"
-              className="w-28 h-auto"
+              className="w-40 h-auto"
             />
           </div>
 
@@ -20,23 +20,29 @@ const Footer = () => {
             <div className="text-left md:text-left">
               <p className="font-bold text-base">Processing Line:</p>
               <p className="text-base">
-                Village Hathnoda, Samod Road,
+               G.M AGRO INDUSTRIES,
                 <br />
-                Nimadi, TEH – Chomu, Jaipur 303702
+                Plot No. 122-23, Silver Soil Industrial Park
+                <br />
+                Govindgarh Chomu -303712 Rajasthan-08
               </p>
             </div>
 
             <div className="text-left md:text-left md:pl-10">
               <p className="text-base">
-                <strong>Mobile:</strong> +91-98291-28861,
+                <strong>Mobile:</strong> +91-9413510448,
                 <br />
-                <strong>Phone:</strong> +91-72300-25870,
+                <strong>Phone:</strong> +91-7297994540,
                 <br />
-                <strong>Email:</strong> contact@dusadagro.com
+                <strong>Email:</strong>  gmagroindustries2020@gmail.com
+                <br />
+                <strong>Pan No:</strong>  AAVFG4601J
               </p>
             </div>
 
             <div className="text-left md:text-left md:pl-10 md:pr-16">
+              <strong>GSTIN:</strong>  08AAVFG4601J1Z3
+                <br />
               <p className="font-semibold text-base mb-2">Follow us on:</p>
               <div className="flex gap-3 mt-1">
                 <a href="#" aria-label="Facebook">

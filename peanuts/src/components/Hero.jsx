@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <div className="bg-[#fff7ff] flex flex-col md:flex-row py-6 md:pt-10 md:pb-20 px-4 md:px-0">
-      <div className="w-full md:w-1/2 md:ml-28 flex items-center justify-center mb-10 md:mb-0">
+      <div className="w-full md:w-[45%] md:ml-28 flex items-center justify-center mb-10 md:mb-0">
         <div className="w-full max-w-md md:max-w-full h-auto">
           <Swiper
             modules={[Autoplay, Navigation, Pagination]}
@@ -48,19 +48,19 @@ const Hero = () => {
           </Swiper>
         </div>
       </div>
-      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center text-center md:text-left px-4 md:px-28 md:pr-24">
+      <div className="w-full md:w-1/2 flex flex-col items-center md:items-start justify-center text-center md:text-left px-4 md:px-40 md:pr-24">
         <img
-          src="https://dusadagro.com/wp-content/uploads/2020/02/LOGO-PNG.png"
+          src="logo.png"
           alt="Logo"
-          className="w-32 h-32 md:w-40 md:h-40 object-contain md:ml-28 mb-4 md:mb-6"
+          className="w-48 h-48 md:w-64 md:h-64 object-contain md:ml-28"
         />
-        <h1 className="text-2xl md:text-4xl text-center text-[#510e0b] font-bold mb-2">
+        <h1 className="text-2xl md:-mt-5 md:text-4xl text-center text-[#510e0b] md:ml-5 font-bold mb-2">
           Premium Quality Peanuts
         </h1>
-        <p className="text-base text-[#510e0b] max-w-md">
+        <p className="text-base text-[#510e0b] max-w-md ml-5">
           Leader in processing of peanuts in India for the last 20 years
         </p>
-        <button onClick={()=>navigate("/about")} className="bg-[#510e0b] text-white py-2 px-4 rounded-lg md:ml-36 mt-4">
+        <button onClick={()=>navigate("/about")} className="bg-[#510e0b] text-white py-2 px-4  rounded-lg md:ml-48 mt-4">
           Read More
         </button>
       </div>
