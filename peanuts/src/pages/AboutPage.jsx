@@ -1,5 +1,4 @@
-import React from "react";
-import Certified from "../components/Certified";
+
 
 function AboutPage() {
   return (
@@ -21,7 +20,7 @@ function AboutPage() {
         <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2 text-left">
             <h2 className="text-2xl md:text-3xl font-bold text-[#3a3123] mb-4">
-              A GLIMPSE OF DUSAD AGRO FOOD
+              A GLIMPSE OF G.M AGRO INDUSTRIES
             </h2>
             <p className="font-bold text-base text-[#3a3123] mb-4">
               A visionary Indian company with 20 years of excellent
@@ -83,7 +82,7 @@ function AboutPage() {
         </div>
       </section>
 
-      <Certified />
+     
     </div>
   );
 }

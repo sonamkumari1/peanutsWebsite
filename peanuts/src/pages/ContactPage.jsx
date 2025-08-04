@@ -74,7 +74,7 @@ function ContactPage() {
       </div>
 
       {/* Form Section */}
-      <div className="w-full bg-[#fff7ff] py-10 px-4 sm:px-6 lg:px-8">
+      <div className="w-full bg-[#fff7ff] pt-10 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto bg-[#fff7ff] p-6 sm:p-10 md:p-16 rounded-lg shadow-xl shadow-gray-200">
           <form onSubmit={handleSubmit} className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-center pb-5 text-gray-800">
@@ -166,18 +166,6 @@ function ContactPage() {
               </button>
             </div>
           </form>
-        </div>
-
-        {/* Certification Section */}
-        <div className="max-w-4xl mx-auto mt-12 text-center px-4">
-          <h3 className="text-lg md:text-xl font-semibold mb-4">
-            We are Certified By
-          </h3>
-          <img
-            src="https://dusadagro.com/wp-content/uploads/2020/08/Certified-768x248.jpg"
-            alt="Certified"
-            className="mx-auto w-full max-w-xs sm:max-w-md"
-          />
         </div>
       </div>
     </div>

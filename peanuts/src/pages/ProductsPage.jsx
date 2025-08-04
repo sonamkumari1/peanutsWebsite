@@ -16,7 +16,7 @@ function ProductsPage() {
         </div>
       </div>
 
-      <div className="pb-30">
+      <div>
         <div className="w-full flex flex-col md:flex-row items-start md:px-40 px-4 md:py-24 py-8 gap-10 text-gray-800">
           <div className="w-full md:w-1/2 px-4 md:px-10 py-5 bg-[#fff7ff] border border-gray-100 shadow-xl">
             <h3 className="text-2xl font-bold">Ground Nuts With Shell</h3>
@@ -24,7 +24,7 @@ function ProductsPage() {
               India is the second largest peanut producer in the world. Bold
               variety peanuts has oblong shape with brown skin. Bold peanuts is
               major oil-seed of India, it almost covers 25% of total oil-seed
-              production in India. At Dusad Agro Food Pvt. Ltd. <br />
+              production in India. At G.M Agro Industries <br />
               we supply BOLD variety with available sizes of 40/50, 50/60, 60/70
               Counts/Ounce.
             </p>
@@ -53,7 +53,7 @@ function ProductsPage() {
               India is the second largest peanut producer in the world. Bold
               variety peanuts has oblong shape with brown skin. Bold peanuts is
               major oil-seed of India, it almost cover 25% of total oil-seed
-              production in India. At Dusad Agro Food Pvt. Ltd. <br />
+              production in India. At G.M Agro Industries <br />
               we supply BOLD variety with available sizes of 40/50, 50/60, 60/70
               Counts/Ounce.
             </p>
@@ -112,7 +112,7 @@ function ProductsPage() {
           <div className="w-full md:w-1/2 p-4 md:p-7 bg-[#fff7ff] border border-gray-100 shadow-xl">
             <h3 className="text-2xl font-bold mb-3">Roasted Split White</h3>
             <p className="text-base">
-              At Dusad Agro Food Pvt. Ltd. we are engaged in supplying high
+              At G.M Agro Industries. we are engaged in supplying high
               quality Roasted Split White Peanut. We use ultra-modern processing
               technique to process ground nuts under guidance of adroit
               professionals. Our roasted split white peanuts are delicious in
@@ -151,7 +151,7 @@ function ProductsPage() {
           </div>
         </div>
       </div>
-      <Certified />
+    
     </div>
   );
 }

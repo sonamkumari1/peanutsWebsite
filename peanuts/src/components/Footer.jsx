@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#fff7ff] text-[#634618] text-sm pt-10">
+    <footer className="bg-[#fff7ff] text-[#634618] text-sm md:pt-10">
       <div className="px-4 md:px-24 py-5">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-0">
         
@@ -12,7 +12,7 @@ const Footer = () => {
             <img
               src="logo.png"
               alt="Dusad Agro Logo"
-              className="w-40 h-auto"
+              className="w-40 h-auto -mb-10 -ml-5 md:mb-0 md:ml-0"
             />
           </div>
 
@@ -57,8 +57,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="mt-6 border-t border-[#452d08]/20 text-center py-4 text-base">
-        © 2018 Dusad Agro Food Pvt Ltd All Rights Reserved
+      <div className=" border-t border-[#452d08]/20 text-center py-4 text-base">
+        © 2018 G.M Agro Industries All Rights Reserved
       </div>
     </footer>
   );

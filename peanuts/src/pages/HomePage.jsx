@@ -10,9 +10,9 @@ function HomePage() {
     <div>
       <Hero />
       <CardHover />
-      <DusadFeatures />
+      {/* <DusadFeatures /> */}
       <GallerySection />
-      <Certified />
+      {/* <Certified /> */}
     </div>
   );
 }
