@@ -30,8 +30,7 @@ function AboutPage() {
               peanuts and groundnuts all over the world.
             </p>
             <p className="text-[#3a3123]">
-              <span className="font-bold">An ISO 22000 Certified Company</span>
-              <br className="hidden md:block" />
+             
               Quality, price and commitment are the three pillars on which
               <br className="hidden md:block" />
               the company has built its goodwill and earned accolades of its

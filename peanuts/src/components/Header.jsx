@@ -23,7 +23,7 @@ const Header = () => {
 
         <nav id="navmenu" className="hidden xl:block">
           <ul className="flex space-x-7 items-center">
-            {["Home", "About", "Processing", "Products", "Contact"].map((item) => (
+            {["Home", "About", "Products", "Contact"].map((item) => (
               <li key={item}>
                 <Link
                   to={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}
@@ -39,7 +39,7 @@ const Header = () => {
       {mobileMenuOpen && (
         <nav className="xl:hidden absolute top-full left-0 w-full bg-[#fff7ff] shadow-md z-50">
           <ul className="flex flex-col items-start gap-4 p-6">
-            {["Home", "About", "Processing", "Products", "Contact"].map((item) => (
+            {["Home", "About", "Products", "Contact"].map((item) => (
               <li key={item} className="w-full">
                 <Link
                   to={`/${item.toLowerCase() === "home" ? "" : item.toLowerCase()}`}

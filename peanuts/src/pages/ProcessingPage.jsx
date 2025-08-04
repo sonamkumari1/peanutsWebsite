@@ -17,11 +17,11 @@ const ProcessingPage = () => {
       </div>
 
       <div className="container mx-auto px-4 md:pt-20">
-        <section className="text-center my-10 max-w-4xl mx-auto">
-          <p className="font-bold text-base text-[#634618] mb-4">
+        <section className="text-center max-w-4xl mx-auto">
+          {/* <p className="font-bold text-base text-[#634618] mb-4">
             We are an ISO 22000:2018, APEDA, FSSAI Certified Company with a
             strong foothold in EU & CIS countries.
-          </p>
+          </p> */}
           <p className="font-bold text-base text-[#634618]">
             Our Corporate ethos is the effective utilization of people, process
             and technology, thereby creating a synergy
