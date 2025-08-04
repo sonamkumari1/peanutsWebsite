@@ -10,7 +10,7 @@ const corsOptions = {
 };
 app.use(cors(corsOptions));
 
-const _dirname = path.resolve();
+const __dirname = path.resolve();
 
 app.use(express.json());
 
@@ -79,7 +79,7 @@ app.post("/api/contact", async (req, res) => {
   }
 });
 
-app.use(express.static(path.join(_dirname, "/peanuts/dist")));
+app.use(express.static(path.join(__dirname, "/peanuts/dist")));
 
 app.get(/.*/, (req, res) => {
   res.sendFile(path.resolve(__dirname, "peanuts", "index.html"));
