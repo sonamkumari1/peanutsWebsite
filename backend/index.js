@@ -83,8 +83,12 @@ app.post("/api/contact", async (req, res) => {
 
 app.use(express.static(path.join(__dirname, "/peanuts/dist")));
 
-app.get(/.*/, (req, res) => {
-  res.sendFile(path.resolve(__dirname, "peanuts", "index.html"));
+// app.get(/.*/, (req, res) => {
+//   res.sendFile(path.resolve(__dirname, "peanuts", "index.html"));
+// });
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "peanuts", "dist", "index.html"));
 });
+
 
 app.listen(5000, () => console.log("Server running on http://localhost:5000"));
