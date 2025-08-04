@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-     "dev": "nodemon backend/index.js",
+    "dev": "nodemon backend/index.js",
     "build": "npm install && npm install --prefix peanuts && npm run build --prefix peanuts",
     "start": "node backend/index.js"
   },
@@ -12,7 +12,6 @@
   "description": "",
   "dependencies": {
     "cors": "^2.8.5",
-    "expres": "^0.0.5",
     "express": "^5.1.0",
     "nodemailer": "^7.0.5",
     "nodemon": "^3.1.10",
